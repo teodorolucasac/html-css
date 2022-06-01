@@ -1,0 +1,44 @@
+@cahrset "UTF-8";
+
+/*
+  em HTML é id = em CSS é # (só pode usar em 1 elemento)
+  em HTML é class = em CSS é . (pode usar em vários elementos)
+*/
+/*
+Minhas cores: 69B590 medio, 44755D escura, 8FF5C3 mt clara, 1F362B mt escura, 7FDBAF clara
+*/
+
+body {
+    background-color: #8FF5C3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1F362B;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #1F362B;
+    color: white;
+}
+
+h2 {
+    color: #44755D;
+}
+
+.basico {
+    color: #44755D;
+}
+
+.intermediario {
+    color: #757444;
+}
+
+.avancado {
+    color: #754444;
+}
+
+.destaque {
+    background-color: rgba(196, 196, 38, 0.662);
+}
